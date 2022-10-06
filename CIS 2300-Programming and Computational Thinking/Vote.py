@@ -7,5 +7,7 @@ else:
     register=input('Are you registered to vote? Yes or No\n')
     if register=="Yes":
         print('You can Vote!')
+    elif register=="No":
+      print('You need to register before you can vote')
     else:
-        print('You need to register before you can vote')
+        print('Error')
