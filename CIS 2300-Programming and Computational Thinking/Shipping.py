@@ -25,4 +25,4 @@ elif Shipping=="Overnight":
         Price=40
     print("$"+str(Price))
 else:
-    Print("Error")
+    print("Error")
